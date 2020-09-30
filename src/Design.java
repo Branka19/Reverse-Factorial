@@ -87,8 +87,8 @@ public class Design extends JFrame implements ActionListener {
 	
 	public void actionPerformed(ActionEvent e) {
 		
-		int m = Integer.parseInt(fieldnumber.getText());
-		int n = 0;
+		long m = Long.parseLong(fieldnumber.getText());
+		long n = 0;
 		while (m > 0) {
 		    m = m / ++n;
 		}
